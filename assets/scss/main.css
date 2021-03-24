@@ -1,0 +1,154 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
+html {
+  scroll-behavior: smooth;
+}
+
+.backtotop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+}
+
+.q {
+  background-color: #F5F9FD;
+}
+
+.w {
+  background-color: #262c31;
+  color: white;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.vh-90 {
+  height: calc(100vh - 100px);
+}
+
+.shadow {
+  -webkit-box-shadow: -8px -8px 20px rgba(0, 0, 0, 0.05), 8px 8px 20px #9db0d4 !important;
+          box-shadow: -8px -8px 20px rgba(0, 0, 0, 0.05), 8px 8px 20px #9db0d4 !important;
+}
+
+/* ---- reset ---- */
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+  color: #232323;
+}
+
+body h4 {
+  font-weight: 500;
+  font-size: 1.65rem !important;
+  position: relative;
+  z-index: 1;
+}
+
+body h4::before {
+  content: '';
+  display: block;
+  background-color: #b6b6b6;
+  width: 7.5rem;
+  height: 1.5rem;
+  bottom: -0.5rem;
+  left: -1.5rem;
+  position: absolute;
+  z-index: -1;
+}
+
+body h5 {
+  font-weight: 400;
+  font-size: 1.4rem !important;
+}
+
+body p.fs-4 {
+  font-size: 0.6rem !important;
+}
+
+body p {
+  font-size: 0.8rem !important;
+}
+
+body a {
+  font-size: 0.8rem;
+}
+
+body div.recall {
+  height: 60vh;
+}
+
+@media (min-width: 768px) {
+  body p.fs-4 {
+    font-size: 1.1rem !important;
+  }
+  body p {
+    font-size: 1.1rem !important;
+  }
+  body h2 {
+    font-size: 3.6rem !important;
+  }
+  body a {
+    font-size: 1.2rem;
+  }
+  body div.recall {
+    height: 70vh;
+  }
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #262c31;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13e8e9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+/*# sourceMappingURL=main.css.map */
