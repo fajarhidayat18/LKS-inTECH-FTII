@@ -1,3 +1,7 @@
+*{
+font-family: 'Roboto', sans-serif;
+}
+
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
 html {
   scroll-behavior: smooth;
@@ -68,7 +72,7 @@ body {
   div.recall{
     height:60vh;
   }
-  
+
   @media (min-width: 768px) { 
     p.fs-4{
       font-size: 1.1rem !important;
