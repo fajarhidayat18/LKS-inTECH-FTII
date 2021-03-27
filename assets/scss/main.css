@@ -25,7 +25,7 @@ html {
 }
 
 .vh-90 {
-  height: calc(100vh - 100px);
+  height: calc(100vh - 3rem);
 }
 
 .shadow {
@@ -80,7 +80,21 @@ body div.recall {
   height: 60vh;
 }
 
+body footer label {
+  font-size: normal;
+}
+
+body section#pembahasan .recall {
+  margin-bottom: 5rem;
+}
+
 @media (min-width: 768px) {
+  body section#pembahasan .recall {
+    margin-bottom: 4rem;
+  }
+  body footer label {
+    font-size: large;
+  }
   body p.fs-4 {
     font-size: 1.1rem !important;
   }

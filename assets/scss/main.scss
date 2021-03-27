@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
+$enable-negative-margins: true;
 html {
   scroll-behavior: smooth;
 }
@@ -21,7 +22,7 @@ html {
   padding: 0 1rem;
 }
 .vh-90{
-  height:calc(100vh - 100px);
+  height:calc(100vh - 3rem);
 }
 .shadow{
   box-shadow: -8px -8px 20px rgba(0, 0, 0, 0.05),8px 8px 20px rgb(157, 176, 212)  !important;
@@ -68,8 +69,20 @@ body {
   div.recall{
     height:60vh;
   }
+  footer label{
+    font-size: normal;
+  }
+  section#pembahasan .recall{
+    margin-bottom: 5rem;
+  }
 
   @media (min-width: 768px) { 
+    section#pembahasan .recall{
+      margin-bottom: 4rem;
+    }
+    footer label{
+      font-size: large;
+    }
     p.fs-4{
       font-size: 1.1rem !important;
     }
